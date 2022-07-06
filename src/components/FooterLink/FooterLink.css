@@ -11,3 +11,8 @@
 .footer-link-element {
     color: #000;
 }
+
+.footer-link-element:hover {
+    color: #D2000B;
+    cursor: pointer;
+}

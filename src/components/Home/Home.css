@@ -1,5 +1,5 @@
 .home-container {
-    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    background: linear-gradient(39.97deg, #222222 0.79%, #D2000B 79.29%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.header-text > h1 {
+.header-text>h1 {
     /* Headline */
     font-family: Poppins;
     font-style: normal;
@@ -29,7 +29,7 @@
     margin: 10px;
 }
 
-.header-text > p {
+.header-text>p {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -75,7 +75,7 @@
 }
 
 .btn:hover {
-    box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+    box-shadow: 1px 10px 32px white;
     transition: all 0.3s ease-in-out;
 }
 

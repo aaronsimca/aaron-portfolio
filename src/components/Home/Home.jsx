@@ -23,7 +23,7 @@ class Home extends React.Component {
                 {this.state.showModal && <Modal closeModal={this.closeModal} />}
                 <div className='header-text'>
                     <h1>Welcome to my portfolio!</h1>
-                    <p>This is Madhav, a full stack dev and a teacher</p>
+                    <p>This is Aaron, a full stack dev and a creator</p>
                 </div>
                 <div className='head-btns'>
                     <Link className='btn btn-white' to='/about'>

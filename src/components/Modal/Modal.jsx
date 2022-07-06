@@ -12,7 +12,7 @@ const Modal = (props) => {
                 className='modal-container'
             >
                 <div className='upper-section'>
-                    <h1>Huge Announcement!</h1>
+                    <h1>I'm thrilled, you're here!</h1>
                     <p onClick={props.closeModal} className='close'>
                         &times;
                     </p>
@@ -20,21 +20,21 @@ const Modal = (props) => {
 
                 <div className='middle-section-container'>
                     <div className='middle-section'>
-                        <h3>React Mega Tutorial is live!</h3>
-                        <p>Do you wish to learn React?</p>
+                        <h3>Web3 eBooks are out!</h3>
+                        <p>Do you wish to know more about the EtherSiim project?</p>
                         <p>
-                            I've published a completely FREE react tutorial,
+                            I've published an completely FREE web3 eBooks on Twitter,
                             check it out today!
                         </p>
-                        <p>
-                            I bring to you this mega course where each month I
-                            will help you learn about these libraries and
-                            frameworks by building 1 cool project.
-                        </p>
+                        <p>Here are the lists:</p>
+                        <li>2022 WEB3/CRYPTO TOOLKIT</li>
+                        <li>WEB3/CRYPTO TECHNICAL TOOLKIT</li>
+                        <li>WEB3 PROJECTS</li>
+
                     </div>
                     <div className='middle-section-image'>
                         <a
-                            href='http://theleanprogrammer.com/aam'
+                            href='https://twitter.com/AaronSiim'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
@@ -52,12 +52,12 @@ const Modal = (props) => {
                         Close
                     </a>
                     <a
-                        href='http://theleanprogrammer.com/aam'
+                        href='https://twitter.com/EtherSiim'
                         target='_blank'
                         rel='noreferrer'
                         className='modal-btn btn-green'
                     >
-                        Start Tutorial
+                        ACCESS FREE eBOOK
                     </a>
                 </div>
             </div>

@@ -20,7 +20,7 @@
 }
 
 .project-card:hover {
-    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 40px 50px #D2000B;
     transition: all 0.3s;
 }
 
@@ -50,11 +50,17 @@
 
 .project-yt-link {
     font-weight: 600;
-    color: #4089ed;
+    color: #D2000B;
+}
+
+.project-yt-link:hover {
+    color: black;
+    cursor: pointer;
 }
 
 .project-heading {
     margin: 0;
+    color: #D2000B;
 }
 
 .project-details {
@@ -69,6 +75,7 @@
     .project-cards-container {
         padding: 20px;
     }
+
     .project-card {
         width: 290px;
         min-height: 500px;
